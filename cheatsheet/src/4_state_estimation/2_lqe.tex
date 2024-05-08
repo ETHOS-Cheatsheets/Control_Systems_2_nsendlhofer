@@ -1,0 +1,11 @@
+\subsection{LQE}
+$$
+    Q = \mathbb{E}[w(t)w(t)^T], \quad R = \mathbb{E}[n(t)n(t^T)], \quad \forall t\geq 0
+$$
+Problem: Find L, such that the steady-state covariance of the state error is minimized.
+
+\textbf{Solution:}
+\begin{align*}
+    0 &= AY + YA^T - YC^TR^{-1}CY + Q\\
+    L &= -YC^TR^{-1}
+\end{align*}

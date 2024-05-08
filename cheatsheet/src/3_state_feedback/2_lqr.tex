@@ -1,5 +1,6 @@
 \subsection{LQR}
 \subsubsection{Continuous Time}
+    \vspace*{-0.4em}
     \begin{align*}
         \underset{K}{\text{min}} \, J(x,u) &= \int_{0}^{+\infty}[x(t)^TQx(t) + u(t)^TRu(t)]dt,\\[5pt]
         \text{s.t.:} \quad \dot{x}(t) &= Ax(t) + Bu(t),\\
@@ -9,6 +10,7 @@
     \end{align*}
 
 \subsubsection{Discrete Time}
+    \vspace*{-0.4em}
     \begin{align*}
         \underset{K}{\text{min}} \, J(x,u) &= \sum_{k=0}^{+\infty}(x[k]^TQx[k] + u[k]^TRu[k]),\\[5pt]
         \text{s.t.:} \quad x[k+1] &= Ax[k] + Bu[k],\\
