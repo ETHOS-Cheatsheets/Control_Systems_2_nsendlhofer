@@ -1,0 +1,26 @@
+\subsection{Kalman Decomposition}
+\begin{align*}
+    x^+ &= \begin{bmatrix}
+        \Lambda_{r\overline{o}} & 0 & 0 & 0 \\
+        0 & \Lambda_{ro} & 0 & 0 \\
+        0 & 0 & \Lambda_{\overline{r}\overline{o}} & 0 \\
+        0 & 0 & 0 & \Lambda_{\overline{r}o}
+    \end{bmatrix} x + 
+    \begin{bmatrix}
+        B_{r\overline{o}} \\
+        B_{ro} \\
+        0 \\
+        0
+    \end{bmatrix} u, \\
+    y &= \begin{bmatrix}
+        0 & C_{ro} & 0 & C_{\overline{r}o}
+    \end{bmatrix} x + Du
+\end{align*}
+
+\begin{itemize}
+    \item \textbf{Stabilizability}\\
+        A system is said to be stabilizable if all unstable modes are reachable
+
+    \item \textbf{Detectability}\\
+        A system is said to be detectable if all unstable modes are observable
+\end{itemize}

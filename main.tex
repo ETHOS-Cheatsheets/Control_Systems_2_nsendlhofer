@@ -4,11 +4,28 @@
 \usepackage{empheq}
 \usepackage{pbox}
 \usepackage{booktabs}
+\usepackage{cancel}
+\usepackage{amssymb}
+\usepackage{amsmath}
 
-\doctitle{... Cheatsheet}
-\author{AUTHOR \\ \vspace*{-0.2em}}
+\newcommand{\doubleabs}[1]{\left\| #1 \right\|}
+
+
+\doctitle{Control Systems 2 Cheatsheet}
+\author{Noa Sendlhofer - nsendlhofer@ethz.ch}
 
 \begin{document}
-\section{Section}
-	\input{src/1_section/1_subsection.tex}
+\section{Discrete Time}
+	\input{src/1_discrete_time/1_sampling.tex}
+	\input{src/1_discrete_time/2_aliasing.tex}
+	\input{src/1_discrete_time/3_state_space.tex}
+\section{System Properties}
+	\input{src/2_system_properties/1_modal_decomposition.tex}
+	\input{src/2_system_properties/3_reachability.tex}
+	\input{src/2_system_properties/4_observability.tex}
+	\input{src/2_system_properties/2_controllability.tex}
+	\input{src/2_system_properties/5_kalman_decomposition.tex}
+\section{State Feedback}
+	\input{src/3_state_feedback/1_state_feedback.tex}
+	\input{src/3_state_feedback/2_lqr.tex}
 \end{document}

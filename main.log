@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.1)  7 MAY 2024 11:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.1)  8 MAY 2024 13:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -597,6 +597,20 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@lastruleclass=\count313
 \@thisrulewidth=\dimen297
 )
+(/opt/texlive/texdir/texmf-dist/tex/latex/cancel/cancel.sty
+Package: cancel 2013/04/12 v2.2 Cancel math terms
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/opt/texlive/texdir/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup8
+\symAMSb=\mathgroup9
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
 (/opt/texlive/texdir/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count314
@@ -605,20 +619,20 @@ File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
 
 (/opt/texlive/texdir/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -677,25 +691,94 @@ e
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \Hy@linkcounter=\count321
-(./src/1_section/1_subsection.tex) [1
+(./src/1_discrete_time/1_sampling.tex
+LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
 
-{/opt/texlive/texdir/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./main.aux
-) ) 
+(/opt/texlive/texdir/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
+
+(/opt/texlive/texdir/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
+(./src/1_discrete_time/2_aliasing.tex
+<src/1_discrete_time/images/aliasing.jpg, id=4, 2675.9975pt x 523.9575pt>
+File: src/1_discrete_time/images/aliasing.jpg Graphic file (type jpg)
+<use src/1_discrete_time/images/aliasing.jpg>
+Package pdftex.def Info: src/1_discrete_time/images/aliasing.jpg  used on input
+ line 7.
+(pdftex.def)             Requested size: 163.49023pt x 32.00372pt.
+
+Overfull \hbox (5.69052pt too wide) in paragraph at lines 6--9
+[]
+ []
+
+) (./src/1_discrete_time/3_state_space.tex
+<src/1_discrete_time/images/emulation.jpeg, id=5, 754.82pt x 361.35pt>
+File: src/1_discrete_time/images/emulation.jpeg Graphic file (type jpg)
+<use src/1_discrete_time/images/emulation.jpeg>
+Package pdftex.def Info: src/1_discrete_time/images/emulation.jpeg  used on inp
+ut line 12.
+(pdftex.def)             Requested size: 163.49023pt x 78.26216pt.
+)
+(./src/2_system_properties/1_modal_decomposition.tex)
+(./src/2_system_properties/3_reachability.tex)
+(./src/2_system_properties/4_observability.tex)
+(./src/2_system_properties/2_controllability.tex)
+(./src/2_system_properties/5_kalman_decomposition.tex
+LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
+21.
+
+(/opt/texlive/texdir/texmf-dist/tex/latex/base/ts1cmss.fd
+File: ts1cmss.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+))
+(./src/3_state_feedback/1_state_feedback.tex
+<src/3_state_feedback/images/state_feedback.jpeg, id=6, 2433.09pt x 492.84125pt
+>
+File: src/3_state_feedback/images/state_feedback.jpeg Graphic file (type jpg)
+<use src/3_state_feedback/images/state_feedback.jpeg>
+Package pdftex.def Info: src/3_state_feedback/images/state_feedback.jpeg  used 
+on input line 2.
+(pdftex.def)             Requested size: 194.1433pt x 39.32281pt.
+) (./src/3_state_feedback/2_lqr.tex
+Overfull \hbox (0.10625pt too wide) detected at line 19
+[]
+ []
+
+) [1
+
+{/opt/texlive/texdir/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./src/1_dis
+crete_time/images/aliasing.jpg> <./src/1_discrete_time/images/emulation.jpeg> <
+./src/3_state_feedback/images/state_feedback.jpeg>] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 14466 strings out of 476024
- 293606 string characters out of 5792021
- 1854388 words of memory out of 5000000
- 34681 multiletter control sequences out of 15000+600000
- 514686 words of font info for 40 fonts, out of 8000000 for 9000
+ 15205 strings out of 476024
+ 305067 string characters out of 5792021
+ 1916388 words of memory out of 5000000
+ 35334 multiletter control sequences out of 15000+600000
+ 524457 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 116i,5n,118p,433b,844s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</opt/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></
-opt/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></opt/te
-xlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on main.pdf (1 page, 31619 bytes).
+ 116i,19n,118p,433b,875s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/opt/texlive
+/texdir/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</opt/texlive/texd
+ir/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></opt/texlive/texdir/tex
+mf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></opt/texlive/texdir/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></opt/texlive/texdir/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi7.pfb></opt/texlive/texdir/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi8.pfb></opt/texlive/texdir/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr5.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr7.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmss10.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmss8.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmssb
+x10.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pf
+b></opt/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></op
+t/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></o
+pt/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></op
+t/texlive/texdir/texmf-dist/fonts/type1/public/cm-super/sfss0700.pfb>
+Output written on main.pdf (1 page, 813163 bytes).
 PDF statistics:
- 26 PDF objects out of 1000 (max. 8388607)
- 16 compressed objects within 1 object stream
+ 90 PDF objects out of 1000 (max. 8388607)
+ 53 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 28 words of extra memory for PDF output out of 10000 (max. 10000000)
 

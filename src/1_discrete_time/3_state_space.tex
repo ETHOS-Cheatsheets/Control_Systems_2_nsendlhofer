@@ -1,0 +1,12 @@
+\subsection{DT State Space Representation}
+    \begin{align*}
+        x[k+1] &= A_d x[k] + B_d u[k]\\
+        &= e^{A T_s} x[k] + \left(\int_{0}^{T_s} e^{A \tau}d\tau\right)B u[k]\\
+        y[k] &= C_d x[k] + D_d u[k]\\
+        &= C x[k] + D u[k]
+    \end{align*}
+
+    \quad If A is invertible: $B_d = A^{-1}(A_d - I)B$
+
+    \subsubsection{Emulation}
+        \centerline{\includegraphics[width=0.8\linewidth]{src/1_discrete_time/images/emulation.jpeg}}

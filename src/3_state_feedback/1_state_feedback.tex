@@ -1,0 +1,32 @@
+\subsection{State Feedback}
+\centerline{\includegraphics[width=0.95\linewidth]{src/3_state_feedback/images/state_feedback.jpeg}}
+\begin{align*}
+    \dot{x} &= (A-BK)x + BKSr\\
+    &= (A-BK)x + B\overline{N}r, \qquad \overline{N} = KS\\
+    y &= Cx + (D=0)\\[5pt]
+    G_{yr}^{cl}(s) &= C(sI - A + BK)^{-1}BKS\\
+    &= C(sI - A - BK)^{-1}B\overline{N}
+\end{align*}
+
+\subsubsection{$K$ - Direct Method}
+$$
+    p_{cl}^* = \prod_{i=1}^{n}(s + \lambda_i), \quad K = \begin{bmatrix} k_1 & k_2 & \hdots & k_n \end{bmatrix}
+$$
+$$
+    p_{cl} = det(sI - A + BK) = p_{cl}^*
+$$
+
+\subsubsection{$K$ - Ackermann's Formula}
+$$
+    K = \begin{bmatrix} 0 & \hdots & 0 & 1 \end{bmatrix} R^{-1}p_{cl}^*(A)
+$$
+\vspace*{0.1em}
+
+\subsubsection{$S$}
+$$
+    \text{No steady-state error:} \Rightarrow G_{yr}^{cl}(0) = 1
+$$
+$$
+    \Longrightarrow \overline{N} = - (C(A-BK)^{-1}B)^{-1}, \quad S = K^{-1}\overline{N}
+$$
+\vspace*{0.1em}
