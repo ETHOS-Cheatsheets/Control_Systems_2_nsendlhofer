@@ -1,0 +1,13 @@
+\subsection{Luenberger Observer}
+    \centerline{\includegraphics[width=0.8\linewidth]{src/4_state_estimation/images/luenberger_observer.jpeg}}
+    \vspace*{-1em}
+    \begin{align*}
+        \dot{\hat{x}}(t) &= (A-LC)\hat{x}(t) + Bu(t) + Ly(t)\\
+        \hat{y}(t) &= C\hat{x}(t)
+    \end{align*}
+    $$
+    \Rightarrow \textbf{Exactely the same as finding a control gain $K$}
+    $$
+    $$
+    L = p_{cl}^*(A)\mathcal{O}^-1[0, \hdots, 0, 1]^T
+    $$

@@ -1,12 +1,12 @@
 \subsection{Reachability}
     \begin{minipage}{0.63\linewidth}
         $$
-            \mathbf{R} := \left[A^{n-1}B | ... | AB | B \right] \in \mathbb{R}^{n\times n \cdot m}
+        \mathcal{R} := \left[A^{n-1}B | ... | AB | B \right] \in \mathbb{R}^{n\times n \cdot m}
         $$
     \end{minipage}
     \begin{minipage}{0.36\linewidth}
         $$
-            \mathbf{U} :=
+            U :=
             \begin{bmatrix}
                 u[0] \\
                 u[1] \\
@@ -16,7 +16,7 @@
         $$
     \end{minipage}
 
-    $\Rightarrow x[n] = RU$
+    $\Rightarrow x[n] = \mathcal{R}U$
     \vspace{5pt}
 
-    \textbf{The systen is reachable if and only if $\mathbf{R}$ has full row rank n}
+    \textbf{The systen is reachable if and only if $\mathcal{R}$ has full row rank n}
