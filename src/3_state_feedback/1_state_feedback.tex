@@ -1,7 +1,7 @@
 \subsection{State Feedback}
 \centerline{\includegraphics[width=0.95\linewidth]{src/3_state_feedback/images/state_feedback.jpeg}}
 \begin{align*}
-    \dot{x} &= (A-BK)x + BKSr\\
+    x^+ &= (A-BK)x + BKSr\\
     &= (A-BK)x + B\overline{N}r, \qquad \overline{N} = KS\\
     y &= Cx + (D=0)\\[5pt]
     G_{yr}^{cl}(s) &= C(sI - A + BK)^{-1}BKS\\

@@ -1,4 +1,10 @@
 \subsection{LQR}
+LQR guarantees:
+\begin{itemize}
+    \item phase margin $\geq 60^\circ$
+    \item gain margin ($\frac{1}{2}, +\infty$)
+\end{itemize}
+
 \subsubsection{Continuous Time}
     \vspace*{-0.4em}
     \begin{align*}
@@ -22,7 +28,7 @@
 
 \subsubsection{LQR Servo}
     $$
-    \frac{d}{dt} \begin{bmatrix} x \\ \epsilon \end{bmatrix} 
+    \begin{bmatrix} x \\ \epsilon \end{bmatrix} ^+
     = \begin{bmatrix} A & 0 \\ -C & 0 \end{bmatrix} \begin{bmatrix} x \\ \epsilon \end{bmatrix}
     + \begin{bmatrix} B \\ 0 \end{bmatrix} u + \begin{bmatrix} 0 \\ I \end{bmatrix} r
     $$

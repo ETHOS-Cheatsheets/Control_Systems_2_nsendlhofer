@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.1)  8 MAY 2024 15:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.1)  14 MAY 2024 11:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -714,12 +714,14 @@ Overfull \hbox (5.69052pt too wide) in paragraph at lines 6--9
 []
  []
 
-) (./src/1_discrete_time/3_state_space.tex
+) (./src/1_discrete_time/3_state_space.tex)
+(./src/1_discrete_time/4_transfer_function.tex)
+(./src/1_discrete_time/5_approximations.tex
 <src/1_discrete_time/images/emulation.jpeg, id=5, 754.82pt x 361.35pt>
 File: src/1_discrete_time/images/emulation.jpeg Graphic file (type jpg)
 <use src/1_discrete_time/images/emulation.jpeg>
 Package pdftex.def Info: src/1_discrete_time/images/emulation.jpeg  used on inp
-ut line 12.
+ut line 3.
 (pdftex.def)             Requested size: 163.49023pt x 78.26216pt.
 )
 (./src/2_system_properties/1_modal_decomposition.tex)
@@ -742,7 +744,7 @@ Package pdftex.def Info: src/3_state_feedback/images/state_feedback.jpeg  used
 on input line 2.
 (pdftex.def)             Requested size: 194.1433pt x 39.32281pt.
 ) (./src/3_state_feedback/2_lqr.tex
-Overfull \hbox (0.10625pt too wide) detected at line 21
+Overfull \hbox (0.10625pt too wide) detected at line 27
 []
  []
 
@@ -757,41 +759,57 @@ Package pdftex.def Info: src/4_state_estimation/images/luenberger_observer.jpeg
 (pdftex.def)             Requested size: 163.49023pt x 85.3517pt.
 )
 (./src/4_state_estimation/2_lqe.tex)
-(./src/5_dynamic_output_feedback/1_dynamic_output_feedback.tex)
-(./src/5_dynamic_output_feedback/2_lqg.tex) [1
+(./src/5_dynamic_output_feedback/1_dynamic_output_feedback.tex
+<src/5_dynamic_output_feedback/images/dofb.png, id=8, 1583.9175pt x 745.78625pt
+>
+File: src/5_dynamic_output_feedback/images/dofb.png Graphic file (type png)
+<use src/5_dynamic_output_feedback/images/dofb.png>
+Package pdftex.def Info: src/5_dynamic_output_feedback/images/dofb.png  used on
+ input line 1.
+(pdftex.def)             Requested size: 204.36203pt x 96.21593pt.
+)
+(./src/6_mimo/1_transfer_function.tex
+<src/6_mimo/images/transfer_function.jpeg, id=10, 1242.6425pt x 361.35pt>
+File: src/6_mimo/images/transfer_function.jpeg Graphic file (type jpg)
+<use src/6_mimo/images/transfer_function.jpeg>
+Package pdftex.def Info: src/6_mimo/images/transfer_function.jpeg  used on inpu
+t line 2.
+(pdftex.def)             Requested size: 102.18102pt x 29.70808pt.
+ [1
 
 {/opt/texlive/texdir/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./src/1_dis
 crete_time/images/aliasing.jpg> <./src/1_discrete_time/images/emulation.jpeg> <
 ./src/3_state_feedback/images/state_feedback.jpeg> <./src/4_state_estimation/im
-ages/luenberger_observer.jpeg>]
-(./main.aux) ) 
+ages/luenberger_observer.jpeg> <./src/5_dynamic_output_feedback/images/dofb.png
+>]) (./src/6_mimo/2_state_space.tex)
+[2 <./src/6_mimo/images/transfer_function.jpeg>] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 15240 strings out of 476024
- 306431 string characters out of 5792021
- 1924388 words of memory out of 5000000
- 35353 multiletter control sequences out of 15000+600000
+ 15283 strings out of 476024
+ 307790 string characters out of 5792021
+ 1950388 words of memory out of 5000000
+ 35381 multiletter control sequences out of 15000+600000
  524751 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 116i,19n,118p,433b,879s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/opt/texlive/texdir/texmf-dist/fonts/enc/dvips/cm-super/cm-super
--ts1.enc}</opt/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cmextra/cm
-ex7.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pf
-b></opt/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></op
-t/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></opt/texl
-ive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></opt/texlive/tex
-dir/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></opt/texlive/texdir/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></opt/texlive/texdir/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmss8.pfb></opt/texlive/texdir/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmssbx10.pfb></opt/texlive/texdir/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsy5.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmsy7.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public
-/amsfonts/latxfont/line10.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/publi
-c/amsfonts/symbols/msbm7.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public
-/cm-super/sfss0700.pfb>
-Output written on main.pdf (1 page, 1140595 bytes).
+ 116i,19n,118p,433b,882s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/opt/texlive/te
+xdir/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</opt/texlive/texdir/
+texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></opt/texlive/texdir/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></opt/texlive/texdir/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></opt/texlive/texdir/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmmi8.pfb></opt/texlive/texdir/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr5.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr7.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmss10.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmss8.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+ssbx10.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5
+.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><
+/opt/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb>
+</opt/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb><
+/opt/texlive/texdir/texmf-dist/fonts/type1/public/cm-super/sfss0700.pfb>
+Output written on main.pdf (2 pages, 1275523 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
- 50 compressed objects within 1 object stream
+ 93 PDF objects out of 1000 (max. 8388607)
+ 53 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 43 words of extra memory for PDF output out of 10000 (max. 10000000)
 

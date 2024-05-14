@@ -1,12 +1,36 @@
 \subsection{DT State Space Representation}
+    \vspace*{-0.5em}
     \begin{align*}
         x[k+1] &= A_d x[k] + B_d u[k]\\
-        &= e^{A T_s} x[k] + \left(\int_{0}^{T_s} e^{A \tau}d\tau\right)B u[k]\\
+        &= e^{A T} x[k] + \left(\int_{0}^{T} e^{A (T-\tau)}d\tau\right)B u[k]\\
         y[k] &= C_d x[k] + D_d u[k]\\
         &= C x[k] + D u[k]
     \end{align*}
 
     \quad If A is invertible: $B_d = A^{-1}(A_d - I)B$
 
-    \subsubsection{Emulation}
-        \centerline{\includegraphics[width=0.8\linewidth]{src/1_discrete_time/images/emulation.jpeg}}
+    \subsubsection{Homogeneous response}
+    \vspace*{-0.5em}
+    $$
+    x[0] = x_0, \qquad u[k] = 0
+    $$
+    \begin{align*}
+        x[k+1] &= Ax[k], \; \Rightarrow  x[k] = A^kx_0\\
+        y[k] &= Cx[k]\\
+        &= CA^kx_0\\[3pt]
+        A^k &= (T\Lambda T^{-1})^k = T\Lambda^kT^{-1}
+    \end{align*}
+    \vspace*{-1em}
+    $$
+    \lim_{k\rightarrow +\infty}A^k = 0 \quad \Longrightarrow \quad \left\lvert \lambda_i \right\rvert < 1
+    $$
+
+    \subsubsection{Forced response}
+    \vspace*{-1em}
+    \begin{align*}
+        x[1] &= Bu[0],\\
+        x[2] &= ABu[0] Bu[1], \; \hdots ,\\[2pt]
+        x[k] &= \sum_{i=0}^{k-1} A^{k-i-1}Bu[i],\\
+        y[k] &= \underbrace{CA^kx_0}_{\text{Homogeneous}} + \underbrace{C\sum_{i=0}^{k-1} A^{k-i-1}Bu[i] + Du[k]}_{\text{Forced}}
+    \end{align*}
+    \vspace*{0em}
