@@ -1,0 +1,15 @@
+\subsection{DT Transfer Function}
+$$
+    u[k] = u_0z^k = u_0e^{ksT} = u(kT)
+$$
+\begin{align*}
+    y[k] &= C\sum_{i=0}^{k-1} A^{k-i-1}Bu_0z^i + Du_0z^k\\
+    &= \underbrace{CA^k(x_0-C(zI-A)^{-1}Bu_0)}_{\text{Transient}}\\
+    & \; + \underbrace{C(zI-A)^{-1}Bu_0z^k+Du_0z^k}_{\text{Steady-state}}
+\end{align*}
+$$
+    \lim_{k\rightarrow +\infty}A^k = 0 \quad \Rightarrow \quad y[k] \approx [C(zI-A)^{-1}B+D]u[k]
+$$
+$$
+    y[k] \approx G(z)u[k], \quad G(z) := C(zI-A)^{-1}B+D
+$$
