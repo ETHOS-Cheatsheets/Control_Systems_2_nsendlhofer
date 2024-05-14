@@ -1,0 +1,41 @@
+\subsection{Singular Value Decomposition}   
+\begin{minipage}{0.2\linewidth}
+    \begin{equation*}
+        A = U\Sigma V'
+    \end{equation*} 
+\end{minipage}
+\begin{minipage}{0.3\linewidth}
+    \begin{equation*}
+        \left\{
+            \begin{aligned}
+                U &\in \mathbb{C}^{m \times m}\\
+                V &\in \mathbb{C}^{n \times n}\\
+                \Sigma &\in \mathbb{R}^{m \times n}\\
+            \end{aligned}
+        \right.
+    \end{equation*}
+\end{minipage}
+\begin{minipage}{0.49\linewidth}
+    \begin{itemize}
+        \item $U,V$ are unitary matrices
+        \item $\Sigma$ is diagonal with non-zero entries
+    \end{itemize}
+\end{minipage}
+$$
+A = \overbrace{\begin{pmatrix} \underline{u}_1 & \underline{u}_2 \end{pmatrix}}^U
+\overbrace{\begin{pmatrix}
+    \sigma_1 & 0 \\
+    0 & \sigma_2
+\end{pmatrix}}^\Sigma
+\overbrace{\begin{pmatrix} \underline{v}_1 & \underline{v}_2 \end{pmatrix}'}^{V'}
+$$
+\begin{itemize}
+    \item $u_i$ are the left singular vectors ($\textbf{normalized} \; eig(AA')$)
+    \item $v_i$ are the right singular vectors ($\textbf{normalized} \; eig(A'A)$)
+    \item $\sigma_i = \sqrt{\lambda_i}$ 
+    \item $v_i$ is the specific input that generates the extremal output $u_i$ with amplification $\sigma_i$
+\end{itemize}
+$$
+    \doubleabs{A}_{2,\text{ind}} = \sup_{x \neq 0} \frac{\doubleabs{Ax}_2}{\doubleabs{x}_2} = \sigma_{\textrm{max}}(A)
+    , \; \inf_{x \neq 0} \frac{\doubleabs{Ax}_2}{\doubleabs{x}_2} = \sigma_{\textrm{min}}(A)
+$$
