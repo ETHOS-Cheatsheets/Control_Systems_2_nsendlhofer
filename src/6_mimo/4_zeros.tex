@@ -1,0 +1,36 @@
+\subsection{MIMO Zeros}
+\subsubsection{Transmission Zeros}
+    $H(s)$ has a transmission zero at frequency $\zeta_0$ if $H(s)$ drops rank at $s = \zeta_0$. In this case the null space of the matrix is non-zero, which means a zero has to exist. $\textrm{rank}(A)+\textrm{nullity}(A)=n$
+    \begin{align*}
+        H(s) &= \begin{bmatrix}
+                    1 & \frac{1}{s-3} \\
+                    0 & 1
+                \end{bmatrix}\\
+        \lim_{s\rightarrow 3} \begin{bmatrix}
+                                1 & \frac{1}{s-3} \\
+                                0 & 1
+                              \end{bmatrix}
+        &\Rightarrow \begin{bmatrix}
+                        1 & \infty \\
+                        0 & 1
+                    \end{bmatrix}
+        \approx \begin{bmatrix}
+                    1 & \infty \\
+                    0 & 0
+                \end{bmatrix}
+    \end{align*}
+    \quad $\Longrightarrow \zeta_0$ is a pole and a zero!
+    $$
+    \lim_{s\rightarrow \zeta_0} H(s)u_0(s) = 0, \quad u_0(s) \; \text{is called "direction"}
+    $$
+
+\subsubsection{Invariant Zeros}
+    A non-zero input frequency, that doesn't show up in the output. The output can still be non-zero. The invariant zeros correspont to the values $s_i$ for which the matrix
+    $$
+    \begin{bmatrix}
+        sI-A & -B \\
+        C & D
+    \end{bmatrix}
+    $$
+    becomes singular. (not full rank)\\
+    If the system realization is minimal: invariant zeros $\hat{=}$ transmission zeros.

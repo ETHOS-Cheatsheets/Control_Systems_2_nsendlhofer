@@ -1,0 +1,13 @@
+\subsection{Definitions}
+    \begin{itemize}
+        \item $U \in \mathbb{R}^{n \times n}$ is \textbf{orthogonal} if $U^TU = I$
+        \item $U \in \mathbb{C}^{n \times n}$ is \textbf{unitary} if $U'U = I$\\ ($U' :=$ complex conjugate transpose)
+        \item S is \textbf{hermitian} if $S=S'$\\ For any hermitian $S$, there exists a unitary matrix $U$ s.t. $U'SU$ is diagonal.
+    \end{itemize}
+    \vspace*{-1em}
+    \begin{align*}
+        \doubleabs{x}_p &= \left(\sum_{i=1}^{n}x_i^p\right)^{\frac{1}{p}}\\
+        \doubleabs{x}_\infty &= \max_{1\leq i\leq n} \left\lvert x_i \right\rvert\\
+        \doubleabs{A}_{p,\text{ind}} &= \sup_{x \neq 0} \frac{\doubleabs{Ax}_p}{\doubleabs{x}_p} = \max_{\doubleabs{x}_p = 1} \doubleabs{Ax}_p\\
+        \doubleabs{A}_F &= \left( \textrm{Trace}(A'A) \right)^{\frac{1}{p}}
+    \end{align*}
