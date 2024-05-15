@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.1)  14 MAY 2024 16:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.1)  15 MAY 2024 15:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -790,35 +790,69 @@ Overfull \hbox (1.26308pt too wide) in paragraph at lines 2--24
 []$[]$ $[]$ $[]$ 
  []
 
-) (./src/7_signal_and_system_norms/3_signal_norms.tex) [2 <./src/6_mimo/images/
-transfer_function.jpeg>] (./main.aux) ) 
+) (./src/7_signal_and_system_norms/3_signal_norms.tex)
+(./src/7_signal_and_system_norms/4_solving.tex)
+(./src/8_robustness/1_small_gain_theorem.tex
+<src/8_robustness/images/small_gain_theorem.png, id=30, 463.7325pt x 434.62375p
+t>
+File: src/8_robustness/images/small_gain_theorem.png Graphic file (type png)
+<use src/8_robustness/images/small_gain_theorem.png>
+Package pdftex.def Info: src/8_robustness/images/small_gain_theorem.png  used o
+n input line 3.
+(pdftex.def)             Requested size: 58.24356pt x 54.58647pt.
+
+Underfull \hbox (badness 7012) in paragraph at lines 9--10
+[]\OT1/cmss/m/n/7 Interconnection is sta-ble iff
+ []
+
+) (./src/8_robustness/2_uncertainty.tex) (./src/8_robustness/3_robustness.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--1
+
+ []
+
+<src/8_robustness/images/robust_stability.png, id=31, 961.5925pt x 252.945pt>
+File: src/8_robustness/images/robust_stability.png Graphic file (type png)
+<use src/8_robustness/images/robust_stability.png>
+Package pdftex.def Info: src/8_robustness/images/robust_stability.png  used on 
+input line 2.
+(pdftex.def)             Requested size: 163.49023pt x 43.00394pt.
+<src/8_robustness/images/robust_performance.png, id=32, 1281.78876pt x 354.3237
+5pt>
+File: src/8_robustness/images/robust_performance.png Graphic file (type png)
+<use src/8_robustness/images/robust_performance.png>
+Package pdftex.def Info: src/8_robustness/images/robust_performance.png  used o
+n input line 8.
+(pdftex.def)             Requested size: 163.49023pt x 45.19324pt.
+) [2 <./src/6_mimo/images/transfer_function.jpeg> <./src/8_robustness/images/sm
+all_gain_theorem.png> <./src/8_robustness/images/robust_stability.png> <./src/8
+_robustness/images/robust_performance.png>] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 15287 strings out of 476024
- 308598 string characters out of 5792021
+ 15336 strings out of 476024
+ 310422 string characters out of 5792021
  1948388 words of memory out of 5000000
- 35382 multiletter control sequences out of 15000+600000
+ 35414 multiletter control sequences out of 15000+600000
  519424 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 116i,19n,118p,433b,890s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/opt/texlive/texdir/texmf-dist/fonts/en
-c/dvips/cm-super/cm-super-ts1.enc}</opt/texlive/texdir/texmf-dist/fonts/type1/p
-ublic/amsfonts/cmextra/cmex7.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmmi5.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmmi7.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr5.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r7.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pf
-b></opt/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></op
-t/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></opt/t
-exlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></opt/texlive
-/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></opt/texlive/texdi
-r/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></opt/texlive/texd
-ir/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm5.pfb></opt/texlive/texdi
-r/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></opt/texlive/texdir
-/texmf-dist/fonts/type1/public/cm-super/sfss0700.pfb>
-Output written on main.pdf (2 pages, 1287246 bytes).
+ 116i,19n,118p,433b,915s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/opt/texlive/texdir/
+texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</opt/texlive/texdir/texmf
+-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></opt/texlive/texdir/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></opt/texlive/texdir/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmmi7.pfb></opt/texlive/texdir/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr5.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr7.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmss10.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmss8.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mssbx10.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+5.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+</opt/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb
+></opt/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm5.pfb>
+</opt/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb><
+/opt/texlive/texdir/texmf-dist/fonts/type1/public/cm-super/sfss0700.pfb>
+Output written on main.pdf (2 pages, 1394938 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
+ 99 PDF objects out of 1000 (max. 8388607)
  53 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 43 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 58 words of extra memory for PDF output out of 10000 (max. 10000000)
 
